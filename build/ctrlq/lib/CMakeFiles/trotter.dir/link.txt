@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -dynamiclib -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -flto -o ../../../ctrlq/lib/trotter.so -install_name @rpath/trotter.so CMakeFiles/trotter.dir/trotter.cc.o  libgetham.a 

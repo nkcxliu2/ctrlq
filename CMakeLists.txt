@@ -5,6 +5,7 @@ project (lib)
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+set(EIGEN_INCLUDE "/usr/local/include/eigen3")
 
 # Set eigen library here
 if (DEFINED ENV{EIGEN_INCLUDE})

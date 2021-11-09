@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libgetham.a CMakeFiles/getham.dir/getham.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libgetham.a
