@@ -12,13 +12,13 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
    
-import numpy
+import numpy as np
 
 
 class device:
     
     def __init__(self):
-        pi2 = 2 * numpy.pi
+        pi2 = 2 * np.pi
         self.w =[ pi2 * 4.808049015463495,
                   pi2 * 4.833254817254613,
                   pi2 * 4.940051121317842,
